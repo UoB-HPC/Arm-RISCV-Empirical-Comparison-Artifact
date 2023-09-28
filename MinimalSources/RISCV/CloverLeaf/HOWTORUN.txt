@@ -1,0 +1,4 @@
+UPDATE Makefile with compiler options: FLAGS_GNU, CFLAGS_GNU, MPI_COMPILER_GNU, C_MPI_COMPILER_GNU
+
+make COMPILER=GNU
+./clover_leaf  # will create clover.in clover.out and clover.tmp files. Should run 75 timesteps by default

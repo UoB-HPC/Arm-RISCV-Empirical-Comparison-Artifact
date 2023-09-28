@@ -1,0 +1,8 @@
+UPDATE minisweep/scripts/cmake_serial.sh with correct compiler flags
+
+mkdir 9build
+cd 9build
+BUILD=Release NM_VALUE=16 CC=gcc ../minisweep/scripts/cmake_serial.sh 
+make
+./sweep
+

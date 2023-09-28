@@ -1,0 +1,4 @@
+UPDATE Makefile with compiler options: CC_GNU, CFLAGS_GNU
+
+make COMPILER=GNU
+./bude -n 64 -i 1 --deck /<path>/<to>/<bm1>
